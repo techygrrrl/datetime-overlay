@@ -1,0 +1,39 @@
+:root {
+  font-family: 'Cascadia Code', monospace;
+  line-height: 1;
+  font-weight: 600;
+
+  color: #fff;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+
+  /* for development */
+  color-scheme: dark;
+}
+
+body {
+  /* `background-color` is set and removed dynamically. do not set here */
+  margin: 8px; /* default */
+}
+
+.clock {
+}
+
+.clock__time {
+  font-size: 1.4rem;
+  margin-right: 6px;
+}
+
+.clock__am-pm {
+  font-size: 1.1rem;
+  margin-left: 4px;
+}
+
+.clock__date {
+  font-size: 1rem;
+}
