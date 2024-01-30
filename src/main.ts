@@ -12,7 +12,7 @@ function initDateTime() {
     const dt = new Date()
 
     const date = formatDate(dt, 'dd MMM y')
-    const amPm = formatDate(dt, 'bbb')
+    const amPm = formatDate(dt, 'a').toLowerCase()
     const time = formatDate(dt, 'h:mm')
 
     element.innerHTML = `
